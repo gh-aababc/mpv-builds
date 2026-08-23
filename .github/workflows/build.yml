@@ -42,7 +42,7 @@ concurrency:
 
 env:
   FFMPEG_REPO: "saindriches/FFmpeg"
-  FFMPEG_REF: "9e0c5c580006299e76cd465d7897af49205acc7f"
+  FFMPEG_REF: "c180246b0019459644af9d783e68a6ecebc1f7f1"
   MPV_REF: ${{ github.event.inputs.mpv_ref || 'master' }}
   CACHE_EPOCH: "1"
 
